@@ -32,10 +32,11 @@ A small project aiming to improve some of the constraints and hassles of develop
 #### Building the Loader mod
 - Open up the visual studio project found at `../PTABundleToolkit/PTAPluginLoader/PTAPluginLoader.sln`
 - Select the version of the .NET runtime corresponding to your game. You can find it at `..(GameFolder)/MelonLoader/latest.log`.
+#
 > [!WARNING]
 > You WILL have a lot of errors regarding missing Assemblies, this is normal.
 > We will import needed Assemblies right after.
-
+#
 - Make a right click on `References` inside your project explorer. And Select `Add Reference...`
 - In the `Reference Manager` window, click the `Browse` button at the bottom right.
 - Imports needed Assemblies according to this list : 
