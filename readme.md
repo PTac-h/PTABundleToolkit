@@ -45,7 +45,7 @@ A small project aiming to improve some of the constraints and hassles of develop
 - Open the Visual Studio project located at `../PTAPluginLoader/PTAPluginLoader.sln`.  
 - Select the version of the .NET runtime corresponding to your game. You’ll find it in `..(GameFolder)/MelonLoader/latest.log`.
 
-> ⚠️ **WARNING**  
+> [!WARNING]  
 > You WILL have a lot of errors regarding missing assemblies. This is normal.  
 > We'll import the required assemblies next.
 
