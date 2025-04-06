@@ -19,7 +19,7 @@ namespace PTAPluginLoader
         private Dictionary<string, List<string>> PTAplugins = new Dictionary<string, List<string>>();
         private List<GameObject> PTAObjects = new List<GameObject>();
 
-        private readonly string pluginFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "PTA Plugins");
+        private readonly string pluginFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "PTA-Plugins");
 
         public override void OnInitializeMelon()
         {
@@ -47,7 +47,7 @@ namespace PTAPluginLoader
         {
             if (!Directory.Exists(pluginFolderPath))
             {
-                MelonLogger.Error($"Plugin folder not found: {pluginFolderPath}");
+                Directory.CreateDirectory(pluginFolderPath);
                 return;
             }
 
