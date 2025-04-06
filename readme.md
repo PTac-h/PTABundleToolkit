@@ -67,7 +67,14 @@ A small project aiming to improve some of the constraints and hassles of develop
 #
 ### Creating a Plugin
 - Create a new Unity project **matching your game's [Render Pipeline](https://docs.unity3d.com/Manual/render-pipelines.html)** and name it as you want.
-- Once loaded, right click in the `Asset` folder in the project explorer tab and select `Import Package > Custom Package...`.
+- Once loaded, right click in the in the project explorer and select `Import Package > Custom Package...`.
 - Import `../PTABundleToolkit/PTAAssetBundleToolkit.unitypackage`
 - Give Unity some time to compile the scripts.
+- The new tool should now be available at `Menu > Assets > PTA Bundle Toolkit`.
+
+- You are now Ready to create cutoms prefabs inside unity.
+- You can see a more detailed example at the [Plugin Example]() section
+
+#
+### Plugin Example
 
