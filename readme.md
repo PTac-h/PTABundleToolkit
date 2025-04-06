@@ -94,7 +94,7 @@ A small project aiming to improve some of the constraints and hassles of develop
 #
 - After renaming the prefab to `TestPlugin` click and hold the box next to `Asset Bundles` in the Inspector Window, then release click on `New...`.
 - Name your Plugin, in my case `MyPlugin`, then press enter.
-- 
+  
 ![Capture d'écran 2025-04-06 132653](https://github.com/user-attachments/assets/bc1e1f1a-4914-4ffb-a947-b704da0fa807)
 
 #
