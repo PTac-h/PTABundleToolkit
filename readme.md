@@ -79,10 +79,13 @@ A small project aiming to improve some of the constraints and hassles of develop
 ### Plugin Example
 
 - In your project right click in the scene explorer and select `UI > Panel`
-- Here I've created a simple panel with the label "Hello World".
+![Capture d'écran 2025-04-06 132141](https://github.com/user-attachments/assets/dbba8baf-dfcb-4ea9-a9ed-57a3670a651b)
+
+- Here I've created a simple panel with the label "Hello World", then made it a prefab by drag/dropping it from the scene viewer into the project explorer.
 > [!WARNING]
-> Note that to create the label, I had to import TextMesh Pro
-> The game **NEED** to include TextMesh Pro as well or you'll have some issues
-> This is true for **ANY** dependencies.
+> Note that to create the label, I had to import TextMesh Pro.
+> The also game **NEED** to include TextMesh Pro as well, or you'll have some issues.
+> This is true for **ANY** Editor Dependencies/Plugins.
+![Capture d'écran 2025-04-06 132612](https://github.com/user-attachments/assets/804c1044-dd16-4a76-9042-5e8f75147e85)
 
 
