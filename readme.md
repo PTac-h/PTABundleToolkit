@@ -25,13 +25,13 @@ A small project aiming to improve some of the constraints and hassles of develop
 - Setup a fresh install of Melon Loader to your game's folder. Here's the [official guide](https://melonwiki.xyz/#/?id=requirements) to install Melon Loader.
 - Run you game a first time to initialize the Melon Loader environment.
 - Download and install the latest [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) Version and set it up for C# and Unity devlopment. Here's the [official guide](https://learn.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity)
-- Download and install the unity editor corresponding to the version used to build the game. You can find the right unity version in `..GameFolder/MelonLoader/latest.log`. Here's the [Unity's versions archives](https://unity.com/releases/editor/archive).
+- Download and install the unity editor corresponding to the version used to build the game. You can find the right unity version in `..(GameFolder)/MelonLoader/latest.log`. Here's the [Unity's versions archives](https://unity.com/releases/editor/archive).
 - Download and unpack the [latest release](https://github.com/PTac-h/PTABundleToolkit/releases) of this project anywhere you want.
 
 #
 #### Building the Loader mod
 - Open up the visual studio project found at `../PTABundleToolkit/PTAPluginLoader/PTAPluginLoader.sln`
-- Select the version of the .NET runtime corresponding to your game. You can find it at `..GameFolder/MelonLoader/latest.log`.
+- Select the version of the .NET runtime corresponding to your game. You can find it at `..(GameFolder)/MelonLoader/latest.log`.
 > [!WARNING]
 > You WILL have a lot of errors regarding missing Assemblies, this is normal.
 > We will import needed Assemblies right after.
