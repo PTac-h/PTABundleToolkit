@@ -23,7 +23,7 @@ A small project aiming to improve some of the constraints and hassles of develop
 ## Getting Started
 
 ### Before we start
-> ⚠️ **CAUTION**  
+>[!CAUTION] ⚠️
 > - **This set of tools is a proof of concept. Don’t expect long-term maintenance.**  
 > - **These tools edit some of the original game's DLL files.** This can result in your account **getting banned**, your **computer's security being at risk**, or cyber-monkeys knocking on your walls.  
 > - **I'm not responsible for any violations you may commit using these tools regarding any game/software EULAs.**
