@@ -9,9 +9,15 @@ A small project aiming to improve some of the constraints and hassles of develop
 
 - Incorporate the Unity Editor during the development process of a mod.
 - Bring a wide range of content into a game using Asset Bundles.
-- Cut down a lot of "IDLE time" by enabling plugin hot reloads.
 - Automatically incorporate custom classes into the game's DLL.
 
+
+### What would be great
+
+- Having more control over plugins initialization.
+- Cut down a lot of "IDLE time" by enabling plugin hot reloads.
+- Storing user's preferences using the Melon Loader API.
+- Automatically create needed directories.
 ---
 
 ## Getting Started
