@@ -106,10 +106,11 @@ A small project aiming to improve some of the constraints and hassles of develop
 
 #
 - You should now have 5 files into `Assets > PTA Bundle Toolkit > Generated Asset Bundle`. If not, right click then `Refresh`
+  
   | Assets > PTA Bundle Toolkit > Generated Asset Bundle  |
     | ------------- |
-    | `Generated Asset Bundle` | <-- ignore
-    | `Generated Asset Bundle.manifest` | <-- ignore
+    | `Generated Asset Bundle` <-- ignore| 
+    | `Generated Asset Bundle.manifest` <-- ignore| 
     | `myplugin` |
     | `myplugin.json` |
     | `myplugin.manifest` |
