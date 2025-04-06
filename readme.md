@@ -86,11 +86,15 @@ A small project aiming to improve some of the constraints and hassles of develop
 - Here I've created a simple panel with the label "Hello World", then made it a prefab by drag/dropping it from the scene viewer into the project explorer.
 > [!WARNING]
 > Note that to create the label, I had to import TextMesh Pro.
-> The game also **NEED** to include TextMesh Pro as well, or you'll have some issues.
+> The game **NEED** to include TextMesh Pro as well, or you'll have some issues.
 > This is true for **ANY** Editor Dependencies/Plugins.
-
+> 
 ![Capture d'écran 2025-04-06 132612](https://github.com/user-attachments/assets/804c1044-dd16-4a76-9042-5e8f75147e85)
 
 #
+- After renaming the prefab to `TestPlugin` click and hold the box next to `Asset Bundles` in the Inspector Window, then release click on `New...`.
+- Name your Plugin, in my case `MyPlugin`, then press enter.
+- 
+![Capture d'écran 2025-04-06 132653](https://github.com/user-attachments/assets/bc1e1f1a-4914-4ffb-a947-b704da0fa807)
 
-
+#
