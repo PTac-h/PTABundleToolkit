@@ -15,10 +15,10 @@ A small project aiming to improve some of the constraints and hassles of develop
 # Getting Started :
 
 #### Before we start
-> [!CAUTION]
-> - These sets of tools are a proof of concept. Don't expect a long therme maintenance.
-> - These sets of tools edit some of the original game's DLL files. This can result in your account getting banned, your computer security being at risks, or cyber-monkeys knocking on your walls. 
-> - I'm not responsible for any violations you may commit using these set of tools regarding any game/software EULAs.
+    > [!CAUTION]
+    > - These sets of tools are a proof of concept. Don't expect a long therme maintenance.
+    > - These sets of tools edit some of the original game's DLL files. This can result in your account getting banned, your computer security being at risks, or cyber-monkeys knocking on your walls. 
+    > - I'm not responsible for any violations you may commit using these set of tools regarding any game/software EULAs.
 
 #
 #### Setting up the environment
@@ -50,3 +50,21 @@ A small project aiming to improve some of the constraints and hassles of develop
     | `..(GameFolder)/(GameName)_Data/Managed/UnityEngine.JSONSerializeModule.dll` |
 
 - Once imported, errors should be gone.
+- Try to build the mod by clicking on `Build > Build Solution` or doing `CTRL`+`SHIFT`+`B`.
+- If your build is successfull, you can move `../PTABundleToolkit/PTAPluginLoader/bin/Debug/PTAPluginLoader.dll` to `..(GameFolder)/Mods/PTAPluginLoader.dll`.
+- Try and run the game, a terminal window should pop up and output the Melon Logger messages. If you can see this message, you can move to the next step.
+    ```
+    [12:38:19.259] ------------------------------
+    [12:38:19.259] PTAc-h Plugin Loader v0.3
+    [12:38:19.259] by PTac-h
+    [12:38:19.260] Assembly: PTAPluginLoader.dll
+    [12:38:19.260] ------------------------------
+    [12:38:19.261] ------------------------------
+    [12:38:19.261] 1 Mod loaded.
+    ```
+
+#
+#### Creating a Plugin
+
+
+
