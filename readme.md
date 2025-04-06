@@ -76,7 +76,7 @@ A small project aiming to improve some of the constraints and hassles of develop
 - You are now Ready to create cutoms Plugins inside unity.
 
 #
-### Plugin Example
+### Plugin Example 
 
 - In your project right click in the scene explorer and select `UI > Panel`
   
@@ -115,3 +115,18 @@ A small project aiming to improve some of the constraints and hassles of develop
     | `myplugin` |
     | `myplugin.json` |
     | `myplugin.manifest` |
+#
+### And that's it !
+
+- To use your freshly baked bundle, simply copy the files `myplugin` `myplugin.json` and `myplugin.manifest` into the folder `..(GameFolder)/PTA-Plugins`
+- Run the game.
+- Enjoy.
+
+![Capture d'écran 2025-04-06 144916](https://github.com/user-attachments/assets/7b01c32b-a983-4d51-8982-be9daf6b00f2)
+
+![Capture d'écran 2025-04-06 145303](https://github.com/user-attachments/assets/974eabfb-6afb-4683-8c61-ee3249693778)
+
+![Capture d'écran 2025-04-06 145312](https://github.com/user-attachments/assets/f3ae2f89-b35d-45b4-90ff-8bf7d4a16d28)
+
+
+
