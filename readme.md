@@ -103,3 +103,6 @@ A small project aiming to improve some of the constraints and hassles of develop
 - Click build, and wait for the packing to process.
 
 ![Capture d'écran 2025-04-06 132914](https://github.com/user-attachments/assets/91058353-48e4-491c-bc7d-e5a38ef7f1a4)
+
+#
+- You should now have 5 files into `Assets > PTA Bundle Toolkit > Generated Asset Bundle`. If not, right click then `Refresh`
