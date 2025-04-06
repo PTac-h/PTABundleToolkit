@@ -1,12 +1,12 @@
 ﻿using MelonLoader;
-using praey_mod;
+using PTAPluginLoader;
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
-[assembly: MelonInfo(typeof(PTALoader), "PTAc-h Plugin Loader", "0.2", "PTac-h")]
+[assembly: MelonInfo(typeof(PTALoader), "PTAc-h Plugin Loader", "0.3", "PTac-h")]
 
-namespace praey_mod
+namespace PTAPluginLoader
 {
     [System.Serializable]
     public class PrefabList
