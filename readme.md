@@ -14,23 +14,23 @@ A small project aiming to improve some of the constraints and hassles of develop
 
 # Getting Started :
 
-#### Before we start
+### Before we start
 > [!CAUTION]
-> - These sets of tools are a proof of concept. Don't expect a long therme maintenance.
-> - These sets of tools edit some of the original game's DLL files. This can result in your account getting banned, your computer security being at risks, or cyber-monkeys knocking on your walls. 
-> - I'm not responsible for any violations you may commit using these set of tools regarding any game/software EULAs.
+> - **These sets of tools are a proof of concept. Don't expect a long therme maintenance.**
+> - **These sets of tools edit some of the original game's DLL files**. This can result in your account **getting banned**, your **computer security being at risks**, or cyber-monkeys knocking on your walls.
+> - **I'm not responsible for any violations you may commit using these set of tools regarding any game/software EULAs.**
 
 #
-#### Setting up the environment
-- Setup a fresh install of Melon Loader to your game's folder. Here's the [official guide](https://melonwiki.xyz/#/?id=requirements) to install Melon Loader.
+### Setting up the environment
+- Setup a fresh install of **Melon Loader** to your game's folder. Here's the [official guide](https://melonwiki.xyz/#/?id=requirements) to install Melon Loader.
 - Run you game a first time to initialize the Melon Loader environment.
-- Download and install the latest [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/) Version and set it up for C# and Unity devlopment. Here's the [official guide](https://learn.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity)
-- Download and install the unity editor corresponding to the version used to build the game. You can find the right unity version in `..(GameFolder)/MelonLoader/latest.log`. Here's the [Unity's versions archives](https://unity.com/releases/editor/archive).
-- Download and unpack the [latest release](https://github.com/PTac-h/PTABundleToolkit/releases) of this project anywhere you want.
+- Download and install the latest **[Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)** Version and set it up for C# and Unity devlopment. Here's the [official guide](https://learn.microsoft.com/en-us/visualstudio/gamedev/unity/get-started/getting-started-with-visual-studio-tools-for-unity)
+- Download and install the **unity editor** corresponding to the version used to build the game. You can find the right unity version in `..(GameFolder)/MelonLoader/latest.log`. Here's the [Unity's versions archives](https://unity.com/releases/editor/archive).
+- Download and unpack the **[latest release](https://github.com/PTac-h/PTABundleToolkit/releases)** of this project anywhere you want.
 
 #
-#### Building the Loader mod
-- Open up the visual studio project found at `../PTABundleToolkit/PTAPluginLoader/PTAPluginLoader.sln`
+### Building the Loader mod
+- Open up the visual studio project found at `../PTAPluginLoader/PTAPluginLoader.sln`
 - Select the version of the .NET runtime corresponding to your game. You can find it at `..(GameFolder)/MelonLoader/latest.log`.
 #
 > [!WARNING]
@@ -52,7 +52,7 @@ A small project aiming to improve some of the constraints and hassles of develop
 
 - Once imported, errors should be gone.
 - Try to build the mod by clicking on `Build > Build Solution` or doing `CTRL`+`SHIFT`+`B`.
-- If your build is successfull, you can move `../PTABundleToolkit/PTAPluginLoader/bin/Debug/PTAPluginLoader.dll` to `..(GameFolder)/Mods/PTAPluginLoader.dll`.
+- If your build is successfull, you can move `../PTAPluginLoader/bin/Debug/PTAPluginLoader.dll` to `..(GameFolder)/Mods/PTAPluginLoader.dll`.
 - Try and run the game, a terminal window should pop up and output the Melon Logger messages. If you can see this message, you can move to the next step.
     ```
     [12:38:19.259] ------------------------------
@@ -65,7 +65,9 @@ A small project aiming to improve some of the constraints and hassles of develop
     ```
 
 #
-#### Creating a Plugin
-
-
+### Creating a Plugin
+- Create a new Unity project **matching your game's [Render Pipeline](https://docs.unity3d.com/Manual/render-pipelines.html)** and name it as you want.
+- Once loaded, right click in the `Asset` folder in the project explorer tab and select `Import Package > Custom Package...`.
+- Import `../PTABundleToolkit/PTAAssetBundleToolkit.unitypackage`
+- Give Unity some time to compile the scripts.
 
