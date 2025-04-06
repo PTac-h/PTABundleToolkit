@@ -98,3 +98,8 @@ A small project aiming to improve some of the constraints and hassles of develop
 ![Capture d'écran 2025-04-06 132653](https://github.com/user-attachments/assets/bc1e1f1a-4914-4ffb-a947-b704da0fa807)
 
 #
+- Your plugin is now ready to be exported. Now open the Bundle toolkit at `Menu > Assets > PTA Bundle Toolkit`
+- If not already set, choose the plugin you wanna export.
+- Click build, and wait for the packing to process.
+
+![Capture d'écran 2025-04-06 132914](https://github.com/user-attachments/assets/91058353-48e4-491c-bc7d-e5a38ef7f1a4)
