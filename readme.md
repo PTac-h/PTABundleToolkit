@@ -1,4 +1,4 @@
-# DevTools  
+ #DevTools  
 ## PTA Plugin Loader | PTA Bundle Toolkit
 
 A small project aiming to improve some of the constraints and hassles of developing MODS for MelonLoader.
@@ -22,8 +22,8 @@ A small project aiming to improve some of the constraints and hassles of develop
 
 ## Getting Started
 
-### Before we start
-> ⚠️ **CAUTION**  
+### ⚠️ Before we start ⚠️
+>[!CAUTION]
 > - **This set of tools is a proof of concept. Don’t expect long-term maintenance.**  
 > - **These tools edit some of the original game's DLL files.** This can result in your account **getting banned**, your **computer's security being at risk**, or cyber-monkeys knocking on your walls.  
 > - **I'm not responsible for any violations you may commit using these tools regarding any game/software EULAs.**
@@ -45,7 +45,7 @@ A small project aiming to improve some of the constraints and hassles of develop
 - Open the Visual Studio project located at `../PTAPluginLoader/PTAPluginLoader.sln`.  
 - Select the version of the .NET runtime corresponding to your game. You’ll find it in `..(GameFolder)/MelonLoader/latest.log`.
 
-> ⚠️ **WARNING**  
+> [!WARNING]  
 > You WILL have a lot of errors regarding missing assemblies. This is normal.  
 > We'll import the required assemblies next.
 
@@ -99,7 +99,7 @@ You're now ready to create custom plugins inside Unity.
 
 - Here, I created a simple panel with the label "Hello World", then made it a prefab by dragging it from the Scene Viewer into the Project Explorer.
 
-> ⚠️ **WARNING**  
+> [!WARNING] 
 > To create the label, I had to import TextMesh Pro.  
 > The game **MUST** include TextMesh Pro as well, or you’ll run into issues.  
 > This applies to **ANY** Editor dependencies/plugins.
